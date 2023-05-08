@@ -1,5 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+/* :root{
+    --primary
+} */
 body{
     font-family: 'Open Sans', sans-serif;
+}
+hr{
+    margin: 3rem 0rem;
+}
+.container,.fluid-container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1rem;
+
+    max-width: 600px;
+    margin:auto
+}
+.link{
+    padding: 0.3rem 0.3rem;
+
+    background-color: blue;
+    border-radius: 0.5rem;
+    color:white
+}
+.hero{
+    padding:2rem
+
+}
+.hero-img{
+    max-width: 350px;
+    display:block;
+    margin:auto;
+}
+.hero-heading{
+    text-align: center;
+    color:gray;
 }
